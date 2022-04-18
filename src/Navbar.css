@@ -1,0 +1,34 @@
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--clr-dark);
+    box-shadow:  5px 10px #888888;
+   
+}
+.nav--icon{
+   width: 30%;
+    
+    animation: App-logo-spin infinite 20s linear;
+}
+@keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+.left{
+    display: flex;
+    align-items: center;
+    color: var(--ftn-dark);
+  
+   
+}
+.right{
+    padding: 0 2em;
+    color: var(--ftn-light);
+}
+

@@ -1,0 +1,33 @@
+.main-container{
+    background-color: var(--clr-light);
+    padding: 0 2em 3em 2em;
+    box-shadow:  5px 10px #888888;
+    background-image: url("../public/reactjs-icon\ 2.png");
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+.main--title{
+    padding: 1em 0 0 0;
+    margin-bottom: 0;
+    line-height: 1.5;
+    color: var(--ftn-light);
+    letter-spacing: -0.05em;
+}
+.main--facts {
+    margin-top: 2em;
+    padding-left: 1.5em;
+    max-width: 600px;
+}
+
+.main--facts > li {
+    line-height: 19px;
+    padding-block: .8em;
+    color: var(--ftn-light);
+}
+
+.main--facts > li::marker {
+    font-size: 1.4rem;
+    color: var(--ftn-dark);
+}
